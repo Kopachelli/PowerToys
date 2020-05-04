@@ -68,7 +68,7 @@
                     IsEnabled="{ Binding Mode=TwoWay, Path=IsEnabled}"/>
 
 
-            <muxc:RadioButtons x:Uid="RadioButtons_Name_Theme" 
+            <muxc:RadioButtons x:Uid="ShortcutGuide_Theme" 
                                Margin="{StaticResource SmallTopMargin}"
                                IsEnabled="{ Binding Mode=TwoWay, Path=IsEnabled}"
                                SelectedIndex="{ Binding Mode=TwoWay, Path=ThemeIndex}">
@@ -94,9 +94,7 @@
                 x:Uid="About_This_Feature"
                 Style="{StaticResource SettingsGroupTitleStyle}"
                 Margin="{StaticResource XSmallBottomMargin}"/>
-
-            <Image Source="https://raw.githubusercontent.com/microsoft/PowerToys/dev/build-features/doc/images/shortcut_guide/usage.png" />
-
+            
             <HyperlinkButton 
                 x:Uid="Module_overview"
                 NavigateUri="https://github.com/microsoft/PowerToys/blob/master/src/modules/shortcut_guide/README.md"/>

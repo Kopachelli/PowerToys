@@ -414,7 +414,7 @@
     <value>Shows a help overlay with Windows shortcuts when the Windows key is pressed.</value>
   </data>
   <data name="ShortcutGuide_PressTime.Header" xml:space="preserve">
-    <value>How long to press the Windows key before showing the Shortcut Guide</value>
+    <value>How long to press the Windows key before showing the Shortcut Guide (ms)</value>
   </data>
   <data name="ShortcutGuide_Appearance_Behavior.Text" xml:space="preserve">
     <value>Appearance &amp; Behavior</value>
@@ -535,5 +535,8 @@
   </data>
   <data name="GeneralPage_ToggleSwitch_RunningAsAdminNote.Text" xml:space="preserve">
     <value>Currently running as administrator</value>
+  </data>
+  <data name="ShortcutGuide_Theme.Header" xml:space="preserve">
+    <value>Choose Shortcut Guide Overlay Color</value>
   </data>
 </root>
